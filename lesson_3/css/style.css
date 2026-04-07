@@ -1,0 +1,24 @@
+.main_article_firstpart {
+    color: yellow;
+}
+.main_article_secondpart {
+    color: blue;
+}
+h2.content_title {
+    color: blueviolet;
+}
+.odd_item {
+    color: purple;
+}
+.even_item {
+    color: rgb(25, 206, 94);
+}
+.important_content{
+    color: red;
+}
+.footer{
+    color: brown;
+}
+p{
+    color: goldenrod
+}
