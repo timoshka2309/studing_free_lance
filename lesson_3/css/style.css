@@ -22,3 +22,24 @@ h2.content_title {
 p{
     color: goldenrod
 }
+h2.introduction_title + p {
+    color: blue;
+}
+h2.content_title.about_capital ~p {
+    color: aqua;
+}
+.name, .name_of_plane, .capital {
+    color: brown;
+}
+[class*="it"] {
+    color: rgb(226, 43, 150);
+}
+ul.list > li {
+    color: rgba(255, 168, 127, 0.658);
+}
+#ukranian_songs {
+    color: yellow;
+}
+ol li {
+    color: cornflowerblue;
+}
