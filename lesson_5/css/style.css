@@ -84,7 +84,7 @@ h2 {
 	background-color: brown;
 	margin: 0 auto;
 }
-h3 {
+.title {
 	font-size: 50px;
 	text-align: center;
 }
@@ -95,39 +95,41 @@ h3 {
 	margin: 0 auto;
 	
 }
+.homework >p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #333;
+	line-height: 1.3;
+	padding-bottom: 46px;
 
-.bottom {
+}
+
+.button {
 	background-color: #B88E2F;
 	padding: 25px 72px;
 	width: 222px;
 	height: 74px;
-	margin-top: 46px;
-	
-}
-.name_of_buttom {
 	font-size: 16px;
 	font-weight: 600;
 	color: #fff;
+	text-transform: uppercase;
 	
 }
+
+h1 {
+	font-size: 52px;
+	font-weight: 700;
+	color: #b88e2f;
+	line-height: 1.25;
+	}
 .text_1 {
 	font-size: 16px;
 	color: #333;
 	font-weight: 600;
 	letter-spacing: 3px;
+	
 }
-.text_2 {
-	font-size: 52px;
-	font-weight: 700;
-	color: #b88e2f;
-	line-height: 65px;
-}
-.text_3 {
-	font-size: 18px;
-	font-weight: 500;
-	color: #333;
-	line-height: 24px;
-}
+
 
 .homework_ex {
 	width: 600px;
@@ -142,32 +144,22 @@ h3 {
 	letter-spacing: 4px;
 	text-transform: capitalize;
 }
-.text_2_ex {
+h3 {
 	font-size: 52px;
 	font-weight: 700;
 	color: blue;
-	line-height: 65px;
+	line-height: 1.25;
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-decoration-color: aqua;
 }
 
-.text_3_ex {
+.homework_ex >p {
 	font-size: 18px;
 	font-weight: 500;
 	color: #fff;
 	line-height: 24px;
-}
-.bottom_ex {
-	background-color: #B88E2F;
-	padding: 25px 60px;
-	width: 222px;
-	height: 74px;
-	margin-top: 46px;
-}
-.name_of_buttom_ex {
-	font-size: 16px;
-	font-weight: 600;
-	color: #fff;
-	text-transform: uppercase;
+	padding-bottom: 46px;
+	line-height: 1.3;
+
 }
