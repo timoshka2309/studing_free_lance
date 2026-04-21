@@ -1,0 +1,132 @@
+	/* background-image: url("../img/honey.jpg");
+	background-repeat: no-repeat;
+	height: 800px; */
+
+	/* background-position: горизонталь вертикаль */
+	/* background-position: 0 0; (за замовченням) */
+
+	/* background-position: 20px 50px; */
+	/* background-position: right bottom; */
+	/* background-position: center; */
+	/* background-position: 20% 10%; */
+	/* background-position: 50%; */
+
+	/* 
+	Керує встановленням фонового зображення відносно вікна браузера (в'юпорта), 
+	фонове зображення та градієнт перестає скралитись разом із вмістом елемента.
+
+	scroll - (за замовченням) позиціонується відносно 
+	елемента та скролиться разом з блоком
+	fixed - фонове зображення позиціонується відносно в'юпорта, 
+	НЕ скролиться разом з блоком
+	*/
+
+	/* background-attachment: fixed; */
+
+	/*
+	Масштабує фонове зображення та градієнт згідно з заданими розмірами. 
+	У цифрах, де перше значення (відсотки, px) визначає ширину,
+	друге – висоту. Або спеціальним значенням.
+
+	contain; - Масштабує зображення зі збереженням пропорцій таким чином, 
+	щоб картинка повністю помістилася всередину блоку. 
+	Тобто щонайменше картинки
+	cover - Масштабує зображення зі збереженням пропорцій так, 
+	щоб його ширина або висота дорівнювала ширині або висоті блоку. 
+	Тобто з більшого боку картинки
+	*/
+
+	/* background-size: ширина висота */
+	/* background-size: auto auto; (за замовченням) */
+
+	/* background-size: 200px; */
+	/* background-size: auto 200px; */
+	/* background-size: 200px 50px; */
+
+	/* background-size: contain; */
+
+	/* background-size: cover; */
+	/* background-position: center; */
+
+	/*
+	background-clip налаштовує поведінку 
+	фонового зображення разом з межею border та текстом
+	*/
+
+	/* background-position: center;
+	background-size: cover;
+	border: 10px dashed rgba(143, 67, 67, 1);
+	background-clip: padding-box; */
+
+	/* background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: text;
+	color: transparent; */
+
+	/* 
+	Універсальна властивість - background
+	Властивість background
+	Ця універсальна CSS властивість дозволяє одночасно 
+	задати кілька параметрів фону,
+	а саме визначити колір,  встановити фонове зображення, 
+	задати початкове положення фонового зображення,
+	визначити як повторюватиметься фонове зображення, 
+	встановити чи прокручуватиметься фонове зображення 
+	разом із вмістом і масштабувати фонове зображення 
+	відповідно до заданих розмірів.
+	Також значенням властивості background може 
+	бути вказана градієнтна заливка фону.
+	*/
+
+	/* background: green url("../img/honey.jpg") center / 200px no-repeat scroll; */
+
+	/* Мультіфони */
+	/* background:
+		url("../img/honey.jpg") center / 100px no-repeat,
+		url("../img/building.jpg") 0 0 / 160px no-repeat,
+		linear-gradient(90deg, #ff3f3a 0%, #3a3dff 50%, #f75e05 100%); */
+}
+
+/* Стрілки на CSS */
+
+/* .arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+}
+.arrow-top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid green;
+} */
+
+/* Стилізація списку  */
+.list {
+}
+.item {
+	margin-bottom: 10px;
+	background: url("../img/list.svg") 0 0 / 30px no-repeat;
+	line-height: 1.5;
+	padding-left: 40px;
+	padding-top: 3px;
+	/* Запобіжник */
+	min-height: 30px;
+}
