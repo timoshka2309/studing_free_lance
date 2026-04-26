@@ -1,0 +1,374 @@
+body {
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: brown;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.link {
+    font-size: 20px;
+    font-weight: 400;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.link:hover {
+    color: aqua;
+    background-color: #333;
+    
+}
+
+.link:hover span {
+    color: red;
+    background-color: yellow;
+}
+
+.link span:hover {
+    color: yellow;
+    text-decoration: underline;
+    background-color: green;
+}
+
+.link:active {
+    color: blue;
+}
+
+/* .link:visited {
+    color: yellowgreen;
+} */
+
+.button li {
+   display:inline-block;
+   margin-left: 10px;
+   padding: 10px;
+   font-size: 20px;
+
+}
+
+.button_link a:focus-visible {
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+
+.text {
+    background-color: grey;
+    margin-bottom: 30px;
+}
+.text p {
+    margin-bottom: 5px;
+    color: bisque;
+ }
+
+ .text p:first-of-type {
+    color: aqua;
+ }
+
+ .text p:last-of-type {
+    color: red;
+    text-decoration: underline;
+ }
+
+ .text p:nth-of-type(3) {
+    color: green;
+ }
+
+ .text p:nth-of-type(even){
+    color: black;
+    text-decoration: line-through;
+ }
+ .text1 p:not(.cancel) {
+    color: yellow;
+ }
+ .text2:has(.yes) {
+    color: blueviolet;
+ }
+
+ .homework {
+	font-family: "DM Sans", sans-serif;
+    padding: 15px;
+}
+
+.homework > * {
+	margin-bottom: 17px;
+}
+
+.homework > *:last-child {
+	margin-bottom: 0;
+}
+
+.hwtext_1 {
+	font-size: 50px;
+	font-weight: 400;
+	color: #131313;
+	letter-spacing: -1.26px;
+}
+.hw_title {
+    display: inline-block;
+}
+    
+
+.hw_title::before {
+    content: "";
+    text-decoration: overline;
+    width: 48%;
+    height: 4px;
+    background: #12FF46;
+    background: linear-gradient(24deg,rgba(18, 255, 70, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 17px;
+}
+
+.hwtext_2 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #1AAF5B;
+	letter-spacing: -1.26px;
+}
+h3 {
+	font-size: 60px;
+	text-align: center;
+	color: blue;
+	text-decoration: underline;
+	text-decoration-color: aqua;
+    margin-bottom: 17px;
+
+}
+.homework p {
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	letter-spacing: -0.5px;
+	line-height: 28px;
+	opacity: 60%;
+    margin-bottom: 58px;
+}
+.button_hw {
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    padding: 25px 40px 23px 40px;
+    background-color: #1AAF5B;
+    border-radius: 0 18px 0 0;
+
+}
+.button_hw::after {
+    content: url(../img/arrow_right.svg);
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+.button_hw:hover {
+    background-color: #12FF46;
+}
+
+.maze_game {
+    width: 1000px;
+    height: 550px;
+    
+}
+
+.title_of_game{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+.start {
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.block_of_game_1 {
+    height: 40px;
+    width: 40px;
+    background-color: #000000;
+}
+.block_of_game_2 {
+    height: 500px;
+    width: 40px;
+    /* margin-top: -40px; */
+    background-color: blue;
+    border-radius: 0 0 0 20px;
+    
+}
+.block_of_game_3 {
+    height: 40px;
+    width: 100px;
+    margin-top: -40px;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.block_of_game_4 {
+    height: 500px;
+    width: 40px;
+    margin-left: 60px;
+    margin-top: -500px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.block_of_game_5 {
+    height: 40px;
+    width: 1250px;
+    margin-left: 60px;
+    margin-top: -500px;
+    background-color: violet;
+    border-radius: 20px;
+}
+
+.block_of_game_6 {
+    height: 500px;
+    width: 40px;
+    margin-left: 1270px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20px 20px 20px 0;
+}
+
+.block_of_game_7 {
+    height: 40px;
+    width: 1150px;
+    margin-left: 120px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20 0 0 20px;
+}
+
+.block_of_game_8 {
+    height: 440px;
+    width: 40px;
+    margin-left: 120px;
+    margin-top: -440px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_9 {
+    height: 40px;
+    width: 1100px;
+    margin-left: 120px;
+    margin-top: -440px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_10 {
+    height: 350px;
+    width: 40px;
+    margin-left: 1200px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_11 {
+    height: 40px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_12 {
+    height: 280px;
+    width: 40px;
+    margin-left: 200px;
+    margin-top: -280px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_13 {
+    height: 40px;
+    width: 950px;
+    margin-left: 200px;
+    margin-top: -280px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_14 {
+    height: 200px;
+    width: 40px;
+    margin-left: 1150px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_15 {
+    height: 40px;
+    width: 880px;
+    margin-left: 270px;
+    margin-top: -40px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_16 {
+    height: 120px;
+    width: 40px;
+    margin-left: 270px;
+    margin-top: -120px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_17 {
+    height: 40px;
+    width: 700px;
+    margin-left: 270px;
+    margin-top: -120px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.block_of_game_18 {
+    height: 70px;
+    width: 70px;
+    margin-left: 960px;
+    margin-top: -55px;
+    background-color: #000000;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+    /* visibility: hidden; */
+}
+
+
+.block_of_game:not(:first-child){
+    visibility: hidden;
+}
+
+.block_of_game:last-of-type{
+    visibility: visible;
+}
+
+.block_of_game:hover + .block_of_game, .block_of_game:hover{
+    visibility: visible;
+}
+
