@@ -249,74 +249,91 @@ visibility: hidden;
 }
 
 .hw1 {
-	width: 1440px;
-	height: 316px;
+	width: 100%;
 	padding-top: 61px;
-	padding-left: 682px;
+	/* padding-left: 682px; */
+	padding-bottom: 96px;
 	margin-bottom: 20px;
 	
 	
 	background:
 	/* url(../img/Meubel\ House_Logos-05.png) 720px 82px / auto 77px no-repeat, */
-	url(../img/Vector.svg) center 202px / auto 20px no-repeat,
-	url(../img/Rectangle\ 1.jpg);
+	/* url(../img/Vector.svg) center 202px / auto 20px no-repeat, */
+	url(../img/Rectangle\ 1.jpg) no-repeat;
+	background-size: cover;
 }
-.main_text {
+
+.logo {
+	text-align: center;
+}
+
+
+.hw1 h2 {
 	font-size: 48px;
 	font-weight: 500;
 	text-transform: capitalize;
-	margin-left: -78px;
-	padding-bottom: 19px;
-	/* margin-bottom: 20px; */
+	text-align: center;
+	/* margin-left: -78px; */
+	/* padding-bottom: 19px; */
+	margin-bottom: 20px;
 }
 
-.breadcrumbs-item{
+.breadcrumbs {
+	font-size: 16px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.breadcrumbs-item, .breadcrumbs-item-1{
 	display: inline-block;
 }
 
 .breadcrumbs-link {
-	font-size: 16px;
 	font-weight: 500;
-	text-transform: capitalize;
-	margin-left: -22px;
-	margin-right: 32px;
+	/* margin-left: -22px; */
+	
+	
 }
 .breadcrumbs-item {
-	font-size: 16px;
 	font-weight: 300;
-	text-transform: capitalize;
+	
 }
 
+.breadcrumbs-item-1 {
+padding-left: 32px;
+background: url(../img/Vector.svg) 15px 0px no-repeat;
+}
+
+
 .catalyst {
-	width: 1440px;
-	height: 342px;
-	background-image: url(../img/bg.jpg);
+	width: 100%;
+	background:
+	url(../img/bg_catalyst.png) no-repeat;
+	background-size: cover;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 	padding-top: 94px;
-	padding-left: 598px;
-	margin-bottom: 30px;
-	}
+	padding-bottom: 85px;
+	text-align: center;
+	margin-bottom: 40px;
+}
 
-.title_text {
+.catalyst h2 {
 font-family: Barlow, sans-serif;
 font-weight: 800;
 font-size: 64px;
 line-height: 150%;
 text-transform: uppercase;
 color: #F9EFEC;
-text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-margin-left: -97px;
 margin-bottom: 17px;
-
 }
 
 .button {
 border-radius: 12px;
-padding-top: 13px;
-width: 235px;
-height: 50px;
+max-width: 235px;
+padding: 10px 24px;
 background: #0a84ff;
-text-align: center;
+margin: 0 auto;
+
 }
 .button a {
 font-family: RobotoFlex, sans-serif;
@@ -324,20 +341,22 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 text-transform: capitalize;
-text-align: center;
 color: #fff;
 }
 
 .catalyst_about {
+	width: 834px;
+	padding: 32px 32px 0px 32px;
 	background-color: #1a1a1a;
 	font-family: Barlow, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
 	color: #b3b3b2;
-	padding: 32px;
+	border-radius: 12px;
+	margin: 0 auto;
 }
-h1,h3 {
+.catalyst_about h2 {
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 150%;
@@ -345,22 +364,13 @@ h1,h3 {
 	color: #f9efec;
 	padding-bottom: 12px;
 }
-.About_this_position p{
-	padding-bottom: 34px;
+.catalyst_about p{
+	padding-bottom: 32px;
 }
 
-.Responsibilities li {
+.catalyst_about li {
 	padding-bottom: 12px;
 	background: url(../img/twemoji_diamond-with-a-dot.svg) 0 5px / 16px no-repeat;
 	padding-left: 26px;
 	min-height: 16px;
-}
-.Requirements li {
-	padding-bottom: 12px;
-	background: url(../img/twemoji_diamond-with-a-dot.svg) 0 5px / 16px no-repeat;
-	padding-left: 26px;
-	min-height: 16px;
-}
-.Benefits p {
-	padding-bottom: 34px;
 }
